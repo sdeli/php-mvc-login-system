@@ -1,0 +1,12 @@
+Use this link to reset your password. The link is only valid for 24 hours.
+
+[Product Name] ( https://example.com )
+
+************
+Hi {{usersName}},
+************
+
+Thank your for singing up to our service
+
+here is your link to activate your account
+{{accountActivationLink}}

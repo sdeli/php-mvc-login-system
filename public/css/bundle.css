@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+}
+
+.flash-notifs__notif {
+    width: 100%
+}
+
+.flash-notifs__notif {
+    width: 100%;
+}
+
+.flash-notifs__notif--success {
+    background: #50a3fc;
+}
+
+.flash-notifs__notif--info {
+    background: #6ed185;
+}
+
+.flash-notifs__notif--warning {
+    background: #dc3545;
+}
+
+.flash-notifs__notif__p {
+    padding: 5px 5px;
+    color: rgb(95, 95, 95);
+}

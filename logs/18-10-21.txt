@@ -1,0 +1,78 @@
+[21-Oct-2018 12:40:17 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'Error Processing Request123'</p><p>Stack trace:<pre>#0 [internal function]: App\Controllers\Home\Home->displayPosts(Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(21): call_user_func_array(Array, Array)
+#2 [internal function]: Core\Controller\Controller->__call('displayPosts', Array)
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#4 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayPosts')
+#5 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/display-po...')
+#6 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/App/Controllers/Home/Home.php' on line 42</p>
+
+[21-Oct-2018 12:42:34 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'PDOException'</p><p>Message: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pdo.posts1' doesn't exist'</p><p>Stack trace:<pre>#0 /var/www/php_programming_note/php-mvc-tut/cms-app/App/Model/Posts/Posts.php(12): PDOStatement->execute()
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/App/Controllers/Home/Home.php(28): App\Model\Posts\Posts::getAllPosts()
+#2 [internal function]: App\Controllers\Home\Home->displayPosts(Array)
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(21): call_user_func_array(Array, Array)
+#4 [internal function]: Core\Controller\Controller->__call('displayPosts', Array)
+#5 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#6 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayPosts')
+#7 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/display-po...')
+#8 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/App/Model/Posts/Posts.php' on line 12</p>
+
+[21-Oct-2018 12:59:31 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'no such controller'</p><p>Stack trace:<pre>#0 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayPosts')
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('homea/display-p...')
+#2 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php' on line 109</p>
+
+[21-Oct-2018 13:00:05 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'action is not on curr obj'</p><p>Stack trace:<pre>#0 [internal function]: Core\Controller\Controller->__call('displayaPosts', Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#2 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayaPosts')
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/displaya-p...')
+#4 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php' on line 24</p>
+
+[21-Oct-2018 13:35:56 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'action is not on curr obj'</p><p>Stack trace:<pre>#0 [internal function]: Core\Controller\Controller->__call('displayaPosts', Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#2 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayaPosts')
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/displaya-p...')
+#4 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php' on line 24</p>
+
+[21-Oct-2018 13:36:42 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'action is not on curr obj'</p><p>Stack trace:<pre>#0 [internal function]: Core\Controller\Controller->__call('displayaPosts', Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#2 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayaPosts')
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/displaya-p...')
+#4 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php' on line 24</p>
+
+[21-Oct-2018 13:39:31 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'action is not on curr obj'</p><p>Stack trace:<pre>#0 [internal function]: Core\Controller\Controller->__call('displayaPosts', Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#2 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayaPosts')
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/displaya-p...')
+#4 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php' on line 24</p>
+
+[21-Oct-2018 13:40:03 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'PDOException'</p><p>Message: 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pdo.posts1' doesn't exist'</p><p>Stack trace:<pre>#0 /var/www/php_programming_note/php-mvc-tut/cms-app/App/Model/Posts/Posts.php(12): PDOStatement->execute()
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/App/Controllers/Home/Home.php(27): App\Model\Posts\Posts::getAllPosts()
+#2 [internal function]: App\Controllers\Home\Home->displayPosts(Array)
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(21): call_user_func_array(Array, Array)
+#4 [internal function]: Core\Controller\Controller->__call('displayPosts', Array)
+#5 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#6 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayPosts')
+#7 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/display-po...')
+#8 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/App/Model/Posts/Posts.php' on line 12</p>
+
+[21-Oct-2018 14:04:21 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'action is not on curr obj'</p><p>Stack trace:<pre>#0 [internal function]: Core\Controller\Controller->__call('displayaPosts', Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#2 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayaPosts')
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/displaya-p...')
+#4 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php' on line 24</p>
+
+[21-Oct-2018 19:41:42 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'action is not on curr obj'</p><p>Stack trace:<pre>#0 [internal function]: Core\Controller\Controller->__call('index', Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#2 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'index')
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('')
+#4 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php' on line 24</p>
+
+[21-Oct-2018 19:42:17 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Error'</p><p>Message: 'Call to undefined method Core\Router\Router::ad()'</p><p>Stack trace:<pre>#0 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php' on line 13</p>
+
+[21-Oct-2018 19:42:44 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Error'</p><p>Message: 'Call to undefined method Core\Router\Router::ad()'</p><p>Stack trace:<pre>#0 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php' on line 13</p>
+
+[21-Oct-2018 19:43:19 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Error'</p><p>Message: 'Call to undefined method Core\Router\Router::ad()'</p><p>Stack trace:<pre>#0 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php' on line 13</p>
+
+[21-Oct-2018 19:43:29 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Error'</p><p>Message: 'Call to undefined method Core\Router\Router::ad()'</p><p>Stack trace:<pre>#0 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php' on line 13</p>
+
+[21-Oct-2018 19:44:20 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Error'</p><p>Message: 'Call to undefined method Core\Router\Router::ad()'</p><p>Stack trace:<pre>#0 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php' on line 13</p>
+

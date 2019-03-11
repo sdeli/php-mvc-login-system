@@ -1,0 +1,49 @@
+[22-Oct-2018 20:28:39 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'action is not on curr obj'</p><p>Stack trace:<pre>#0 [internal function]: Core\Controller\Controller->__call('logIn', Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#2 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'logIn')
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('')
+#4 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php' on line 24</p>
+
+[22-Oct-2018 20:42:25 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'no such controller'</p><p>Stack trace:<pre>#0 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'new')
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('sign-up/new')
+#2 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php' on line 109</p>
+
+[22-Oct-2018 20:42:49 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'ErrorException'</p><p>Message: 'Undefined variable: siteTitle'</p><p>Stack trace:<pre>#0 /var/www/php_programming_note/php-mvc-tut/cms-app/App/views/partials/header.php(5): Core\Error\Error::errorHandler(8, 'Undefined varia...', '/var/www/php_pr...', 5, Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/App/views/sign-up.php(3): include('/var/www/php_pr...')
+#2 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/View/View.php(23): require('/var/www/php_pr...')
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(37): Core\View\View::renderFile('sign-up.php', Array)
+#4 /var/www/php_programming_note/php-mvc-tut/cms-app/App/Controllers/SignUp/SignUp.php(14): Core\Controller\Controller->renderFile('sign-up.php')
+#5 [internal function]: App\Controllers\SignUp\SignUp->new(Array)
+#6 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(21): call_user_func_array(Array, Array)
+#7 [internal function]: Core\Controller\Controller->__call('new', Array)
+#8 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#9 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'new')
+#10 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('sign-up/new')
+#11 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/App/views/partials/header.php' on line 5</p>
+
+[22-Oct-2018 20:44:46 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'ErrorException'</p><p>Message: 'Undefined variable: siteTitle'</p><p>Stack trace:<pre>#0 /var/www/php_programming_note/php-mvc-tut/cms-app/App/views/partials/header.php(5): Core\Error\Error::errorHandler(8, 'Undefined varia...', '/var/www/php_pr...', 5, Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/App/views/sign-up.php(3): include('/var/www/php_pr...')
+#2 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/View/View.php(23): require('/var/www/php_pr...')
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(37): Core\View\View::renderFile('sign-up.php', Array)
+#4 /var/www/php_programming_note/php-mvc-tut/cms-app/App/Controllers/SignUp/SignUp.php(14): Core\Controller\Controller->renderFile('sign-up.php')
+#5 [internal function]: App\Controllers\SignUp\SignUp->new(Array)
+#6 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(21): call_user_func_array(Array, Array)
+#7 [internal function]: Core\Controller\Controller->__call('new', Array)
+#8 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#9 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'new')
+#10 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('sign-up/new')
+#11 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/App/views/partials/header.php' on line 5</p>
+
+[22-Oct-2018 20:47:34 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'ErrorException'</p><p>Message: 'Undefined variable: siteTitle'</p><p>Stack trace:<pre>#0 /var/www/php_programming_note/php-mvc-tut/cms-app/App/views/partials/header.php(5): Core\Error\Error::errorHandler(8, 'Undefined varia...', '/var/www/php_pr...', 5, Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/App/views/sign-up.php(3): include('/var/www/php_pr...')
+#2 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/View/View.php(23): require('/var/www/php_pr...')
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(37): Core\View\View::renderFile('sign-up.php', Array)
+#4 /var/www/php_programming_note/php-mvc-tut/cms-app/App/Controllers/SignUp/SignUp.php(14): Core\Controller\Controller->renderFile('sign-up.php')
+#5 [internal function]: App\Controllers\SignUp\SignUp->new(Array)
+#6 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(21): call_user_func_array(Array, Array)
+#7 [internal function]: Core\Controller\Controller->__call('new', Array)
+#8 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#9 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'new')
+#10 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('sign-up/new')
+#11 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/App/views/partials/header.php' on line 5</p>
+

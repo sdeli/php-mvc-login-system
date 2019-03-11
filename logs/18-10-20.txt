@@ -1,0 +1,55 @@
+[20-Oct-2018 22:32:22 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'Error Processing Request123'</p><p>Stack trace:<pre>#0 [internal function]: App\Controllers\Home\Home->displayPosts(Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(21): call_user_func_array(Array, Array)
+#2 [internal function]: Core\Controller\Controller->__call('displayPosts', Array)
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#4 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayPosts')
+#5 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/display-po...')
+#6 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/App/Controllers/Home/Home.php' on line 42</p>
+[20-Oct-2018 22:32:41 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'Error Processing Request123'</p><p>Stack trace:<pre>#0 [internal function]: App\Controllers\Home\Home->displayPosts(Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(21): call_user_func_array(Array, Array)
+#2 [internal function]: Core\Controller\Controller->__call('displayPosts', Array)
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#4 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayPosts')
+#5 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/display-po...')
+#6 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/App/Controllers/Home/Home.php' on line 42</p>
+[20-Oct-2018 22:33:48 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'Error Processing Request123'</p><p>Stack trace:<pre>#0 [internal function]: App\Controllers\Home\Home->displayPosts(Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(21): call_user_func_array(Array, Array)
+#2 [internal function]: Core\Controller\Controller->__call('displayPosts', Array)
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#4 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayPosts')
+#5 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/display-po...')
+#6 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/App/Controllers/Home/Home.php' on line 42</p><br><p>----------------------</p><br>
+[20-Oct-2018 22:35:19 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'Error Processing Request123'</p><p>Stack trace:<pre>#0 [internal function]: App\Controllers\Home\Home->displayPosts(Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(21): call_user_func_array(Array, Array)
+#2 [internal function]: Core\Controller\Controller->__call('displayPosts', Array)
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#4 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayPosts')
+#5 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/display-po...')
+#6 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/App/Controllers/Home/Home.php' on line 42</p>
+
+
+[20-Oct-2018 22:35:26 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'Error Processing Request123'</p><p>Stack trace:<pre>#0 [internal function]: App\Controllers\Home\Home->displayPosts(Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(21): call_user_func_array(Array, Array)
+#2 [internal function]: Core\Controller\Controller->__call('displayPosts', Array)
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#4 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayPosts')
+#5 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/display-po...')
+#6 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/App/Controllers/Home/Home.php' on line 42</p>
+
+
+[20-Oct-2018 22:35:39 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'Error Processing Request123'</p><p>Stack trace:<pre>#0 [internal function]: App\Controllers\Home\Home->displayPosts(Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(21): call_user_func_array(Array, Array)
+#2 [internal function]: Core\Controller\Controller->__call('displayPosts', Array)
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#4 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayPosts')
+#5 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/display-po...')
+#6 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/App/Controllers/Home/Home.php' on line 42</p>
+
+[20-Oct-2018 22:35:39 Europe/Dublin] <h1>Fatal error</h1><p>Uncaught exception: 'Exception'</p><p>Message: 'Error Processing Request123'</p><p>Stack trace:<pre>#0 [internal function]: App\Controllers\Home\Home->displayPosts(Array)
+#1 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Controller/Controller.php(21): call_user_func_array(Array, Array)
+#2 [internal function]: Core\Controller\Controller->__call('displayPosts', Array)
+#3 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(107): call_user_func_array(Array, Array)
+#4 /var/www/php_programming_note/php-mvc-tut/cms-app/Core/Router/Router.php(41): Core\Router\Router->callActionOnController('App\\Controllers...', 'displayPosts')
+#5 /var/www/php_programming_note/php-mvc-tut/cms-app/public/index.php(17): Core\Router\Router->despatch('home/display-po...')
+#6 {main}</pre></p><p>Thrown in '/var/www/php_programming_note/php-mvc-tut/cms-app/App/Controllers/Home/Home.php' on line 42</p>
+
